@@ -1,0 +1,71 @@
+
+@import './fonts.scss';
+
+body {
+    margin: 0;
+    background-color: #210E09;
+
+    color: #fff;
+	font-family: 'Stolzl';
+	font-size: 13px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.header {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.header_inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.header_logo {
+	img {
+		width: 158px;
+		height: 40px;
+	}
+}
+
+.nav {
+	width: 535px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+}
+
+.header_btn {
+	width: 188px;
+	height: 51px;
+	padding: 15px 30px 15px 30px;
+	text-decoration: none;
+	border: 2px solid #D5621D;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #fff;
+	cursor: pointer;
+}
