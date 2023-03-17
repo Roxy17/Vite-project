@@ -3,11 +3,12 @@
 
 body {
     margin: 0;
-    background-color: #210E09;
+    background-color: #210e09;
+	// background-color: #696969;
 
     color: #fff;
 	font-family: 'Stolzl';
-	font-size: 13px;
+	font-size: 14px;
 }
 
 *,
@@ -18,13 +19,14 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1305px;
 	margin: 0 auto;
 
 }
 
 .header {
 	margin-top: 30px;
+	margin-bottom: 55px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
