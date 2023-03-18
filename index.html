@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/style.scss">
     <link rel="stylesheet" href="/src/styles/section_first-screen.scss">
+    <link rel="stylesheet" href="/src/styles/section_menu.scss">
     <title>Vite + TS</title>
   </head>
   <body>
@@ -25,7 +26,7 @@
             <a class="nav_link" href="">Новости</a>
           </nav>
   
-          <button class="header_btn">Бронирование</button>
+          <button class="header_btn btn-border--orange">Бронирование</button>
         </div>
       </div>
     </header>
@@ -36,9 +37,9 @@
           <div class="main_post">
             <div class="post_title">
               <button class="title_btn btn-white">Since 1996</button>
-              <div class="title_text">True. Fontanka.<br>Underground.</div>
+              <div class="section-text">True. Fontanka.<br>Underground.</div>
             </div>
-            <img src="./src/assets/images/big_post.svg" alt="">
+            <img src="./src/assets/images/first-section/big_post.svg" alt="">
           </div>
           <div class="announcements">
             <div class="announcements_title">
@@ -46,12 +47,119 @@
               <div class="title-item">Скоро</div>
             </div>
             <div class="announcements_post">
-                <img src="./src/assets/images/mini_post1.svg" alt="">
-                <img src="./src/assets/images/mini_post2.svg" alt="">
-                <img src="./src/assets/images/mini_post3.svg" alt="">
-                <img src="./src/assets/images/mini_post4.svg" alt="">
+                <img src="./src/assets/images/first-section/mini_post1.svg" alt="">
+                <img src="./src/assets/images/first-section/mini_post2.svg" alt="">
+                <img src="./src/assets/images/first-section/mini_post3.svg" alt="">
+                <img src="./src/assets/images/first-section/mini_post4.svg" alt="">
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="menu">
+      <div class="container">
+        <div class="section_header">
+          <button class="section_btn btn-white">Top "Manhattan" menu</button>
+          <div class="section-text">Кухня</div>
+        </div>
+
+        <div class="slider_menu">
+          <div class="section_items">
+
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_1.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">200 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_2.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">400 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_3.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">300 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_4.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">100 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_5.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">500 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_6.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">200 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_7.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">500 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+            <div class="menu-item">
+              <div class="dish-img">
+                <img src="./src/assets/images/section-menu/menu_8.svg" alt="">
+              </div>
+              <div class="dish-info">
+                <div class="dish-title">Amet donec</div>
+                <div class="dish-grams">300 гр</div>
+                <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+              </div>
+              <button class="dish-price btn-border--orange">550 ₽</button>
+            </div>
+          </div>
+        </div>
+        <div class="btn_menu">
+          <button class="btn_orange">Всё меню</button>
         </div>
       </div>
     </section>
