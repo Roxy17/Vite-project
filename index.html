@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/src/styles/section_menu.scss">
     <link rel="stylesheet" href="/src/styles/section_events-tourists.scss">
     <link rel="stylesheet" href="/src/styles/section_party.scss">
+    <link rel="stylesheet" href="/src/styles/footer.scss">
     <title>Vite + TS</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
           </div>
   
           <nav class="nav">
-            <a class="nav_link" href="">Главная</a>
+            <a class="nav_link active" href="">Главная</a>
             <a class="nav_link" href="">Меню</a>
             <a class="nav_link" href="">Афиша</a>
             <a class="nav_link" href="">Сотрудничество</a>
@@ -45,8 +46,8 @@
           </div>
           <div class="announcements">
             <div class="announcements_title">
-              <div class="title-item active">Ближайшие</div>
-              <div class="title-item">Скоро</div>
+              <div class="title-item active" data-near>Ближайшие</div>
+              <div class="title-item" data-fast>Скоро</div>
             </div>
             <div class="announcements_post">
                 <img src="./src/assets/images/first-section/mini_post1.svg" alt="">
@@ -54,6 +55,12 @@
                 <img src="./src/assets/images/first-section/mini_post3.svg" alt="">
                 <img src="./src/assets/images/first-section/mini_post4.svg" alt="">
             </div>
+            <div class="announcements_post active">
+              <img src="./src/assets/images/first-section/mini_post2.svg" alt="">
+              <img src="./src/assets/images/first-section/mini_post4.svg" alt="">
+              <img src="./src/assets/images/first-section/mini_post1.svg" alt="">
+              <img src="./src/assets/images/first-section/mini_post3.svg" alt="">
+          </div>
           </div>
         </div>
       </div>
@@ -172,6 +179,98 @@
             <div class="section_items swiper-slide">
               <div class="menu-item menu-item--indent">
                 <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_7.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">200 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+  
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_3.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">400 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_6.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">300 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_8.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">100 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_1.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">500 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_4.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">200 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_2.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">500 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_5.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">300 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+            </div>
+
+            <div class="section_items swiper-slide">
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
                   <img src="./src/assets/images/section-menu/menu_1.svg" alt="">
                 </div>
                 <div class="dish-info">
@@ -251,6 +350,98 @@
               <div class="menu-item">
                 <div class="dish-img">
                   <img src="./src/assets/images/section-menu/menu_8.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">300 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+            </div>
+
+            <div class="section_items swiper-slide">
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_7.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">200 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+  
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_5.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">400 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_8.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">300 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_6.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">100 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_2.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">500 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_4.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">200 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item menu-item--indent">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_1.svg" alt="">
+                </div>
+                <div class="dish-info">
+                  <div class="dish-title">Amet donec</div>
+                  <div class="dish-grams">500 гр</div>
+                  <div class="dish-text">Placerat id auctor nunc id vel vel curabitur.<br>Urna fames maecenas leo elit diam nibh elit.</div>
+                </div>
+                <button class="dish-price btn-border--orange">550 ₽</button>
+              </div>
+              <div class="menu-item">
+                <div class="dish-img">
+                  <img src="./src/assets/images/section-menu/menu_3.svg" alt="">
                 </div>
                 <div class="dish-info">
                   <div class="dish-title">Amet donec</div>
@@ -455,6 +646,56 @@
 
       </div>
     </section>
+
+    <div class="footer">
+      <div class="container">
+        <div class="section_header">
+          <button class="section_btn btn-white">Top "Manhattan" place</button>
+          <div class="section-title">Контакты</div>
+        </div>
+
+        <div class="contacts">
+          <div class="contacts_elem contacts-item">
+            <div class="main_contacts">
+              <div class="address">
+                <div class="address-title title--bold">Адрес</div>
+                <div class="address-content text--line-height"><a href="https://2gis.ru/spb/search/Наб%20реки%20фонтанки%2090/geo/5348660212673432?m=30.332602%2C59.92413%2F16.11" target="_blank">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</a></div>
+              </div>
+              <div class="telephone">
+                <div class="telephone-title title--bold">Телефон</div>
+                <div class="telephone-number text--line-height"><a>+7 (812) 713-1945</a></div>
+              </div>
+              <div class="mode">
+                <div class="mode-title title--bold">режим работы</div>
+                <div class="mode-content text--line-height">Ежедневно с 12:00 до 06:00</div>
+              </div>
+            </div>
+
+            <div class="directors">
+              <div class="main-director">
+                <div class="director-title title--bold">Директор</div>
+                <div class="director-content text--line-height">Лидия Эмильевна, <a>+7(921) 963-55-50</a></div>
+              </div>
+              <div class="art-director">
+                <div class="director-title title--bold">Арт-Директор</div>
+                <div class="director-content text--line-height">Илиния Ионашко, <a>+7(981) 989-43-30</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts_elem">
+            <div class="map">
+              <a href="https://2gis.ru/spb/search/Наб%20реки%20фонтанки%2090/geo/5348660212673432?m=30.332602%2C59.92413%2F16.11" target="_blank"><img src="./src/assets/images/map.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="copyright_item">Copyright © 2022. Все права защищены.</div>
+          <div class="copyright_item">Разработано d-e-n.ru</div>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="/src/main.ts"></script>
   </body>

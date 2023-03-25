@@ -58,6 +58,20 @@ body {
 	text-decoration: none;
 	color: #fff;
 	font-weight: 400;
+
+	&:after {
+		width: 100%;
+		content: "";
+		display: block;
+		height: 1px;
+		background-color: #fff;
+		opacity: 0;
+	}
+
+	&:hover:after,
+	&.active:after {
+		opacity: 1;
+	}
 }
 
 .header_btn {

@@ -1,0 +1,80 @@
+
+@import './fonts.scss';
+
+.contacts {
+    width: 1296px;
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+
+    .contacts-item {
+        width: 416px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: #33170b;
+        border: 2px solid #D5621D;
+        border-radius: 5px;
+
+        .main_contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+
+            &:after {
+                content: "";
+                display: block;
+                height: 1px;
+                opacity: 40%;
+                margin: 10px 0 45px;
+                background-color: #fff;
+            }
+        }
+
+        .directors {
+            display: flex;
+            flex-direction: column;
+            gap: 35px; 
+        }
+        
+        .title--bold {
+            font-family: 'Gotham Pro';
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            line-height: 1.5;
+        }
+
+        .text--line-height {
+            line-height: 1.5;
+
+            a {
+                cursor: pointer;
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                    transition-duration: 1s;
+                }
+            }
+        }
+    }
+
+    .map:hover {
+        opacity: 80%;
+        transition-duration: .5s;
+    }
+}
+
+.copyright {
+    width: 1296px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    opacity: 50%;
+}
